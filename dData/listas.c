@@ -74,25 +74,6 @@ tData push(tData lista, tData nuevoNodo) {
     
 }
 
-
-// Agrega un nodo al final de la lista
-/*tData push(tData lista, tData nuevoNodo) {
-    
-    if (!lista) return nuevoNodo; // Si la lista está vacía
-    tData temp = lista;
-    while (temp->next) {
-        temp = temp->next;
-    }
-    temp->next = nuevoNodo;
-    return lista;
-}
-*/
-
-
-
-
-
-
 // Imprime una lista de cadenas
 void printList(tData lista) {
     printf("[ ");
